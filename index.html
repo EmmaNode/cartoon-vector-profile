@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Emmy Lemons | Web Design & Development</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta name="description" content="The web design portfolio of Emmy Leamons">
+<meta name="keywords" content="emmy, lemons, web, website, websites, web design, design, logo design, freelance, responsive, mobile, mobile design, development, responsive development, web development, unique, fun, developer, affordable, small business, personal, portfolio, fullstack, frontend, backend">
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/colorbox.css" />
+
+<!--[if IE]>
+<style type="text/css">
+	.bannerTextSmall {
+    	margin-top:25px;
+    }    
+</style>
+<![endif]-->
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Raleway:400,300,500,700:latin', 'Open+Sans:400italic,400:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); 
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+<script>
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 2;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
+</script> 
+
+<script>
+	$(window).scroll(function() {
+		$('#designIcon').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+500) {
+				$(this).addClass("fadeIn");
+			}
+		});
+	});
+</script>
+
+<script>
+	$(window).scroll(function() {
+		$('#developmentIcon').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+500) {
+				$(this).addClass("fadeIn2");
+			}
+		});
+	});
+</script>
+
+<script>
+	$(window).scroll(function() {
+		$('#gitHubIcon').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+500) {
+				$(this).addClass("fadeIn3");
+			}
+		});
+	});
+</script>
+
+<script>
+	$(window).scroll(function() {
+		$('#replIcon').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+500) {
+				$(this).addClass("fadeIn4");
+			}
+		});
+	});
+</script>
+
+
+<!-- Net Neutrality -->
+
+<!-- <script type="text/javascript">
+function showHide(shID) {
+	if (document.getElementById(shID)) {
+		if (document.getElementById(shID+'-show').style.display != 'none') {
+			document.getElementById(shID+'-show').style.display = 'none';
+			document.getElementById(shID).style.display = 'block';
+		}
+		else {
+			document.getElementById(shID+'-show').style.display = 'inline';
+			document.getElementById(shID).style.display = 'none';
+		}
+	}
+}
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+
+
+<script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+
+
+</head>
+<body>
+
+<a id="home"></a>
+<header class="nav-down">
+	<div class="navWrapper">
+	<div class="navbar1">
+    	<ul id="top-menu">
+  			<li class="active">
+    			<a href="#home">HOME</a>
+  			</li>
+  			<li>
+    			<a href="#about">ABOUT</a>
+  			</li>
+  			<li>
+    			<a href="#work">WORK</a>
+  			</li>
+  			<li>
+    			<a href="#contact">CONTACT</a>
+  			</li>
+		</ul>
+	</div>
+	<div class="navbar2">
+			<div class="accordionButton">MENU</div>
+			<div class="accordionContent">
+				<a href="#home">HOME</a><br>
+				<div class="divLine"></div>
+				<a href="#about">ABOUT</a><br>
+				<div class="divLine"></div>
+				<a href="#work">WORK</a><br>
+				<div class="divLine"></div>
+				<a href="#contact">CONTACT</a><br>
+		</div>
+    </div>
+           <div class="resume">
+       		<a href="https://resume.creddle.io/resume/fizbin3mxtu" target="_blank"><div class="resumeIcon">Resume</div></a>
+       </div>
+  </div>
+</header>
+
+<div class="bannerBkg">
+	<div class="bannerWrapper">
+    	<div class="bannerText">Build, Create,<br>Innovate<br>
+    		<div class="bannerTextSmall">software developer based in Seattle.</div>
+		</div>   
+        <div id="bannerRight">
+        	<div id="demo" style="margin-top:30px; margin-left:3px;"><img src="images/Lemon.png" id="lemonImg"></div>
+        </div>
+        <div class="space"></div>
+    </div>
+</div>
+
+<div class="tagline">
+	<div class="taglineWrapper">
+        Hi, my name is Emmy. I am a full stack web developer based in Seattle. I design & build full-stack web applications.
+        I also create <strong>beautiful</strong> &amp; <strong>functional</strong> websites for artists and I can help you with your next project.
+    </div>
+</div> 
+
+<div class="skillsWrapper">
+  <div class="skillsBox">
+  		<div class="skillsWebDesign">
+    		<div class="skillsCircle"><img src="images/design_icon.png" alt="Website Design" id="designIcon"/></div>
+        	<div class="skillsTitle">WEBSITE DESIGN</div>
+        	<div class="skillsDivide1"></div>
+			Each of my designs begins with a blank canvas which allows your content to guide the layout.
+        	</div>
+	</div>
+  <div class="skillsBox">
+  		<div class="skillsDevelopment">
+    		<div class="skillsCircle"><img src="images/development_icon.png" alt="Development" id="developmentIcon"/></div>
+        	<div class="skillsTitle">DEVELOPMENT</div>
+        	<div class="skillsDivide2"></div>
+			Responsive development to help make websites and applications easily accessible across all devices.
+        </div>
+	</div>
+  <div class="skillsBox">
+  		<div class="skillsGithub">
+    		<div class="skillsCircle"><img src="images/github_icon.png" alt="Github Logo" id="gitHubIcon"/></div>
+        	<div class="skillsTitle">GITHUB</div>
+        	<div class="skillsDivide3"></div>
+			Project repositories and a cataloge of my work can be found on github.
+         </div>
+	</div>
+	<div class="skillsBoxLast">
+    	<div class="skillsRepl">
+    		<div class="skillsCircle"><img src="images/rep_bot.png" alt="Replit" id="replIcon"/></div>
+        	<div class="skillsTitle">REPL.IT</div>
+        	<div class="skillsDivide4"></div>
+			It's important to keep be consistent and growing across all platforms, I build something everyday in a repl check out what I am working on today.
+        </div>  
+	</div>
+</div>
+
+<div class="bigSpace"></div>
+<a id="about"></a>
+<div class="aboutPic">
+	<div class="aboutGlasses"><img src="images/about_me.png" width="355" height="417" alt="stylish spectacles"/></div>
+  <div class="aboutText">
+    	<h1>About Me</h1>
+    	Immersed in a 3 month, 90+ hour/week, project-intensive coding accelerator to solidify web development skills. Designed and built games and web applications with full CRUD functionality, database integration, and user authentication. Used Git for source control, studied best practices for DRY coding, RESTful routings, OOP, TDD, and pair/mob programming in an agile environment.
+    </div>
+    <div class="space"></div>
+</div>
+
+<a id="work"></a>
+<div class="workGroup1">
+<a class='inline' href="#inline_content1">
+	<div class="ltNavyBox">
+    	<img src="images/brick_breaker.png" alt="Brick Breaker" class="grow"/><br>
+        BRICK BREAKER<br>
+        <div class="boxesInfo" style="color:#fbd474">Game Design / Development</div>
+	</div>
+</a>
+
+<a class='inline' href="#inline_content2">
+	<div class="mdGreyBox">
+    	<img src="images/rest_journal.png" alt="Restaurant Journal" class="grow"/><br>
+        EAT THAT<br>
+        <div class="boxesInfo" style="color:#fbd474;">Web Design / Development / Social Media</div>
+	</div>
+</a>
+
+<a class='inline' href="#inline_content3">
+        <div class="goldBox">
+            <img src="images/flash_stash.png" alt="Flash Stash" class="grow"/><br>
+            FLASH STASH<br>
+            <div class="boxesInfo" style="color:#fbd474">Web Design / Responsive Development / Database Integration</div>
+        </div>
+    </a>
+
+<a class='inline' href="#inline_content4">
+	<div class="ltNavyBox">
+    	<img src="images/project4.png" alt="Under Construction" class="grow"/><br>
+        IN PROGRESS...<br>
+        <div class="boxesInfo" style="color:#fbd474">Web Design / Responsive Development</div>
+	</div>
+</a>
+
+
+</div>
+
+<!-- Button click in modol redirects to project website -->
+<!-- <div class="workGroup2">
+
+<a href="http://brickbreaker.com/" target="_blank">
+	<div class="ltNavyBox">
+    	<img src="images/brickbreaker.png" alt="Brick Breaker" class="grow"/><br>
+        Brick Breaker<br>
+        <div class="boxesInfo" style="color:#d76713">Web Design / Development</div>
+	</div>
+</a>
+
+<a href="http://restaurant-journal.com" target="_blank">
+	<div class="mdGreyBox">
+    	<img src="images/restaurant-journal.png" alt="Brestaurant-journal" class="grow"/><br>
+        restaurant-journal<br>
+        <div class="boxesInfo" style="color:#fbd474;">Web Design / Development / Social Media</div>
+	</div>
+</a>
+
+<a href="http://Flash-Stash.org/" target="_blank">
+	<div class="goldBox">
+    	<img src="images/Flash_Stash.png" alt="Flash Stash" class="grow"/><br>
+        Flash Stash<br>
+        <div class="boxesInfo" style="color:#fbd474">Web Design / Responsive Development</div>
+	</div>
+</a>
+
+<a href="http://project4.org/" target="_blank">
+	<div class="ltNavyBox">
+    	<img src="images/project4.png" alt="under construction" class="grow"/><br>
+        Under Construction<br>
+        <div class="boxesInfo" style="color:#fbd474">Web Design / Responsive Development</div>
+	</div>
+</a>
+
+</div>
+
+<div class="space"></div> -->
+
+
+<a id="contact"></a>
+
+<div class="contactBkg">
+	<div class="contactWrapper">
+    	<h2>get in touch</h2>
+        Have a project idea or would like to collaborate? Have a contract or position open at your company? I enjoy meeting other techies and creatives, lets meet for coffee:<br><br>
+        
+        <div class="submitBtnBkg">
+		<a href="mailto:eleamons@gmail.com"><div class="submitBtnNew">send an email</div></a>
+		</div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+  
+<script>
+// Cache selectors
+var lastId,
+    topMenu = $("#top-menu"),
+    topMenuHeight = topMenu.outerHeight()+15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function(){
+      var item = $($(this).attr("href"));
+      if (item.length) { return item; }
+    });
+
+// Bind click handler to menu items
+// so we can get a fancy scroll animation
+menuItems.click(function(e){
+  var href = $(this).attr("href"),
+      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+  $('html, body').stop().animate({ 
+      scrollTop: offsetTop
+  }, 900);
+  e.preventDefault();
+});
+
+// Bind to scroll
+$(window).scroll(function(){
+   // Get container scroll position
+   var fromTop = $(this).scrollTop()+topMenuHeight;
+   
+   // Get id of current scroll item
+   var cur = scrollItems.map(function(){
+     if ($(this).offset().top < fromTop)
+       return this;
+   });
+   // Get the id of the current element
+   cur = cur[cur.length-1];
+   var id = cur && cur.length ? cur[0].id : "";
+   
+   if (lastId !== id) {
+       lastId = id;
+       // Set/remove active class
+       menuItems
+         .parent().removeClass("active")
+         .end().filter("[href=#"+id+"]").parent().addClass("active");
+   }                   
+});
+</script>
+
+</body>
+</html>
