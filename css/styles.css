@@ -527,7 +527,7 @@ header {
 .goldBox {
 	width:50%;
 	float:left;
-	background-color:#cdaa32;
+	background-color:#e6efe6;
 	text-align:center;
 	letter-spacing:3px;
 	color:#ffffff;
@@ -688,13 +688,17 @@ header {
 	width:32%;
 	float:right;
 }
+
+/* .submitBtnText{
+	color: #d06613;
+} */
 .submitBtn {
 	width:100%;
 	background-color:#bb9a36;
 	height:120px;
 	font-size:53px;
 	font-family: 'Open Sans', sans-serif;
-	color:#e6e8bf;
+	color:#f7af02;
 	opacity: 1.0;
     filter: alpha(opacity=100);
 	-moz-border-radius: 5px;
@@ -709,12 +713,12 @@ header {
 }
 .submitBtnNew {
 	padding:10px 0px 10px 0px;
-	background-color:#bb9a36;
+	background-color:#f7af02;
 	height:auto;
 	font-size:50px;
 	line-height:50px;
 	font-family: 'Open Sans', sans-serif;
-	color:#e6e8bf;
+	color:#ffffff;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	 -webkit-appearance: none;
@@ -896,9 +900,6 @@ header {
 	max-width:900px;
 	padding:50px 7% 50px 7%;
 	text-align: center;
-}
-.aboutGlasses {
-	display:none;
 }
 	
 
