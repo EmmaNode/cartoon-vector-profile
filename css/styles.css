@@ -401,7 +401,7 @@ header {
 } */
 
 .boxesInfo {
-	font-size:11px;
+	font-size:16px;
 	font-style:italic;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
@@ -475,7 +475,7 @@ header {
 	letter-spacing:3px;
 	color:#FFFFFF;
 	padding:55px 0px 25px 0px;
-	height:220px;
+	height:400px;
 	font-family: 'Raleway', sans-serif;
 	font-size:13px;
 	font-weight:700;
@@ -483,7 +483,7 @@ header {
 }
 .mdGreyBox img {
 	width:60%;
-	max-width:210px;
+	/* max-width:210px; */
 	margin-bottom:10px;
 }
 .ltNavyBox {
@@ -494,7 +494,7 @@ header {
 	letter-spacing:3px;
 	color:#ffffff;
 	padding:55px 0px 25px 0px;
-	height:220px;
+	height:400px;
 	font-family: 'Raleway', sans-serif;
 	font-size:13px;
 	font-weight:700;
@@ -502,7 +502,7 @@ header {
 }
 .ltNavyBox img {
 	width:60%;
-	max-width:210px;
+	/* max-width:210px; */
 	margin-bottom:10px;
 }
 .whiteBox {
@@ -513,7 +513,7 @@ header {
 	letter-spacing:3px;
 	color:#ffffff;
 	padding:55px 0px 25px 0px;
-	height:220px;
+	height:400px;
 	font-family: 'Raleway', sans-serif;
 	font-size:13px;
 	font-weight:700;
@@ -521,7 +521,7 @@ header {
 }
 .whiteBox img {
 	width:60%;
-	max-width:210px;
+	/* max-width:210px; */
 	margin-bottom:10px;
 }
 .goldBox {
@@ -532,7 +532,7 @@ header {
 	letter-spacing:3px;
 	color:#ffffff;
 	padding:55px 0px 25px 0px;
-	height:220px;
+	height:400px;
 	font-family: 'Raleway', sans-serif;
 	font-size:13px;
 	font-weight:700;
@@ -540,7 +540,7 @@ header {
 }
 .goldBox img {
 	width:60%;
-	max-width:210px;
+	/* max-width:210px; */
 	margin-bottom:10px;
 }
 .grow {
