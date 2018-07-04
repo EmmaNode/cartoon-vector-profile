@@ -382,6 +382,10 @@ header {
 .replWords {
 	padding-right: 5px;
 }
+
+.webDesWords {
+	padding-left: 8px;
+}
 /* #designIcon {
 	visibility: hidden;
 }
