@@ -497,7 +497,7 @@ header {
 	line-height:16px;
 }
 .mdGreyBox img {
-	width:60%;
+	width:50%;
 	/* max-width:210px; */
 	margin-bottom:10px;
 }
@@ -516,7 +516,7 @@ header {
 	line-height:16px;
 }
 .ltNavyBox img {
-	width:60%;
+	width:50%;
 	/* max-width:210px; */
 	margin-bottom:10px;
 }
@@ -535,7 +535,7 @@ header {
 	line-height:16px;
 }
 .whiteBox img {
-	width:60%;
+	width:50%;
 	/* max-width:210px; */
 	margin-bottom:10px;
 }
@@ -554,7 +554,7 @@ header {
 	line-height:16px;
 }
 .goldBox img {
-	width:60%;
+	width:50%;
 	/* max-width:210px; */
 	margin-bottom:10px;
 }
@@ -852,13 +852,13 @@ header {
 
 .aboutText {
 	/* float:left; */
-	width:40%;
-	max-width:500px;
-	padding:50px 5% 50px 5%;
+	width:100%;
+	/* max-width:500px; */
+	padding:50px 0% 50px 0%;
 	font-size:15px;
 	line-height:20px;
 	text-align: center;
-	margin-top: 170px;
+	margin: 0px auto;
 }
 .aboutGlasses img {
 	padding-right:50px;
@@ -1143,7 +1143,9 @@ header {
 
 /* Boxes */
 
-
+.whiteBox {
+	width: 50%
+}
 .mdGreyBox {
 	width:50%;
 }
@@ -1158,16 +1160,16 @@ header {
 }
 
 .whiteBox img {
-    width: 70%;
+    width: 50%;
     padding-top: 69px;
 }
 
 .ltNavyBox img {
-	width:70%;
+	width:50%;
 	padding-top: 69px;
 }
 .navyBox img {
-	width:70%;
+	width:50%;
 	padding-top: 69px;
 }
 /* .mdGreyBox img {
@@ -1175,7 +1177,7 @@ header {
 	padding-top: 69px; */
 }
 .goldBox img {
-	width:70%;
+	width:50%;
 	padding-top: 69px;
 }
 
