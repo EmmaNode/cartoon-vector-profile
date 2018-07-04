@@ -48,11 +48,11 @@ h2 {
 	color:#000000;
 	margin-bottom:10px;
 }
-.bigSpace {
+/* .bigSpace {
 	height:60px;
 	width:100%;
 	clear:both;
-}
+} */
 .space {
 	width:100%;
 	clear:both;
@@ -292,6 +292,11 @@ header {
 	padding-bottom: 50px;
 }
 
+
+.greeting {
+	padding: 50px 50px 50px 50px;
+}
+
 /* CARTOON IMAGE */
 .cartoon {
 	align-content: center;
@@ -299,11 +304,7 @@ header {
     width: 45%;
 }
 
-/* .cartoonBW {
-	align-content: center;
-    height: 45%;
-    width: 45%;
-} */
+
 
 /* skills */
 
@@ -390,8 +391,7 @@ header {
 	background-color: #ffffff;
 }
 
-
-.aboutText {
+ .aboutText {
 	width:90%;
 	padding:70px;
 	font-size:18px;
@@ -406,7 +406,7 @@ header {
     width: 100%;
     height: 800px;
     z-index: 80;
-	background: navy;
+	background: rgb(244, 244, 248);
 	
 }
 
@@ -760,7 +760,6 @@ header {
 
 
 
-
 /* Media Queries
 ***********************/
 
@@ -817,10 +816,10 @@ header {
 .taglineContainer {
 	color: #ffffff;
 	height: 480px;
-	margin: 0px 0px 0px 0px;
-	padding: 70px 0 0 0;
+	/* margin: 0px 0px 0px 0px; */
+	padding: 70px 0 270px 0;
 	z-index:999999;
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 70px 0px;
 	width: 94%;
 }
 
@@ -834,11 +833,11 @@ header {
 
 /* Skills */
 
-.bigSpace {
-	height:80px;
+/* .bigSpace {
+	height:1px;
 	width:100%;
 	clear:both;
-}
+} */
 .skillsBox {
 	font-size:14px;
 	line-height:20px;
@@ -878,15 +877,15 @@ header {
 .workGroup1 {
 	display:block;
 	width: 100%;
-	height: 1200px;
+	height: 50%;
 	z-index: 80;
 }
 /* .workGroup2 {
 	display:block;
 } */
-.mdGreyBox {
+/* .mdGreyBox {
 	width:100%;
-}
+} */
 .ltNavyBox {
 	width:100%;
 }
@@ -926,11 +925,19 @@ header {
     padding-left: 10px;
 }
 
-
+/* .bigSpace {
+	height:1px;
+	width:100%;
+	clear:both;
+} */
 
 @media screen and (max-width: 750px) {
 
-
+	/* .bigSpace {
+		height:1px;
+		width:100%;
+		clear:both;
+	} */
 
 h2 {
 	font-size:66px;
@@ -1078,11 +1085,11 @@ header {
 	background-position:top left;
 	padding-left:85px;
 }
-.bigSpace {
+/* .bigSpace {
 	height:60px;
 	width:100%;
 	clear:both;
-}
+} */
 .skillsWrapper {
 	width: 94%;
     max-width: 1200px;
@@ -1162,9 +1169,9 @@ header {
 	width:70%;
 	padding-top: 69px;
 }
-.mdGreyBox img {
+/* .mdGreyBox img {
 	width:70%;
-	padding-top: 69px;
+	padding-top: 69px; */
 }
 .goldBox img {
 	width:70%;
