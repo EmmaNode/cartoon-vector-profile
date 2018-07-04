@@ -800,13 +800,13 @@ header {
 */
 .bannerText {
 	font-family: 'Raleway', sans-serif;
-	font-size: 90px;
+	font-size: 82px;
 	line-height: 82px;
 	text-align: center;
-	width: 94%;
+	width: 100%;
 	/* float: left; */
 	padding-top: 105px;
-	padding-left: 5%;
+	/* padding-left: 5%; */
 	letter-spacing: -1px;
 }
 /* .bannerTextSmall {
@@ -946,7 +946,7 @@ header {
 	} */
 
 h2 {
-	font-size:66px;
+	font-size:60px;
 	line-height:80px;
 	margin-bottom:10px;
 }
@@ -1101,7 +1101,7 @@ header {
     max-width: 1200px;
     /* margin: 60px auto -94px auto; */
 	height: 375px;
-	padding: 10px 0px 75px 0px;
+	padding: 10px 0px 110px 0px;
 }
 
 .skillsBox {
@@ -1152,14 +1152,14 @@ header {
 .whiteBox {
 	width: 50%
 }
-.mdGreyBox {
-	width:50%;
+/* .mdGreyBox {
+	width:50%; */
 }
 .ltNavyBox {
 	width:50%;
 }
-.navyBox {
-	width:50%;
+/* .navyBox {
+	width:50%; */
 }
 .goldBox {
 	width:50%;
@@ -1262,7 +1262,7 @@ h2 {
     /* max-width: 1200px; */
     /* margin: 60px auto -94px auto; */
 	height: 375px;
-	padding: 10px 0px 75px 0px;
+	padding: 10px 0px 110px 0px;
 }
 /* Contact */
 
@@ -1335,7 +1335,7 @@ input {
 	/* max-width: 1200px; */
 	/* margin: 60px auto -94px auto; */
 	height: 475px;
-	padding: 10px 0px 75px 0px;
+	padding: 10px 0px 110px 0px;
 	}
 
 }
