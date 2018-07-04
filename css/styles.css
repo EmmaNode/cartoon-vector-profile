@@ -292,6 +292,19 @@ header {
 	padding-bottom: 50px;
 }
 
+/* CARTOON IMAGE */
+.cartoon {
+	align-content: center;
+    height: 45%;
+    width: 45%;
+}
+
+/* .cartoonBW {
+	align-content: center;
+    height: 45%;
+    width: 45%;
+} */
+
 /* skills */
 
 
