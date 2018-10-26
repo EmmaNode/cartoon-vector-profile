@@ -1,3 +1,5 @@
 # cartoon-vector-profile
-<video src="https://im6.ezgif.com/tmp/ezgif-6-b23d1c4d1d32.mp4" width="320" height="200" controls preload></video>
-
+<p align="center">
+  <img src="CartoonVectorDemo.png" width="350" title="hover text">
+  <img src="CartoonVectorDemo.png" width="350" alt="accessibility text">
+</p>
