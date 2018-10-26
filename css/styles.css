@@ -1177,11 +1177,12 @@ header {
 }
 .goldBox {
 	width:50%;
+	margin-top:50px;
 }
 
 .whiteBox img {
     width: 50%;
-    padding-top: 69px;
+    padding-top: 30px;
 }
 
 .ltNavyBox img {
@@ -1198,7 +1199,7 @@ header {
 }
 .goldBox img {
 	width:50%;
-	padding-top: 69px;
+	/* padding-top: 69px; */
 }
 
 /* Contact */
