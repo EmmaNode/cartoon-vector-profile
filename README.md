@@ -1,4 +1,4 @@
 # cartoon-vector-profile
 <p align="center">
-  <img src="CartoonVectorDemo.png" width="680" title="hover text">
+  <img src="CVectorDemo.png" width="680" title="hover text">
 </p>
